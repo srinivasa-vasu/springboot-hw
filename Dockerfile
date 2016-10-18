@@ -1,4 +1,4 @@
-FROM openjdk:alpine
+FROM openjdk:8-alpine
 MAINTAINER Srinivasa Vasu, svasu@redhat.com
 VOLUME /tmp
 ADD target/springboot.jar /opt/springboot/
